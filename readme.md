@@ -23,3 +23,8 @@ git add .
 git commit -m "first commit"
 
 create a remote repository in the github before push the changes to git
+
+git remote add origin https://github.com:Shrijoy-Chowdhury/simple-dvc-demo.git
+
+#change the branch to main
+git branch -M main
