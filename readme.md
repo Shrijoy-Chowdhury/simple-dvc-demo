@@ -28,3 +28,8 @@ git remote add origin https://github.com:Shrijoy-Chowdhury/simple-dvc-demo.git
 
 #change the branch to main
 git branch -M main
+
+Use commands:
+
+dvc metrics show - to see the parameters and scores
+dvc metrics diff - to see the difference between the previous and present scores
