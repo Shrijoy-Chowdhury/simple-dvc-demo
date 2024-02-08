@@ -33,3 +33,26 @@ Use commands:
 
 dvc metrics show - to see the parameters and scores
 dvc metrics diff - to see the difference between the previous and present scores
+
+tox command -
+'''bash
+tox'''
+
+for rebuilding - '''bash 
+tox -r'''
+
+pytest command
+'''bash
+pytest -v
+'''
+
+setup commands -
+'''
+pip install -e .
+
+'''
+
+build your own package commands -
+'''
+python setup.py sdist bdist_wheel
+'''
