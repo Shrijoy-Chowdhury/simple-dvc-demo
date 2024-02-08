@@ -56,3 +56,9 @@ build your own package commands -
 '''
 python setup.py sdist bdist_wheel
 '''
+
+Issue with running tox. The solution was to install OpenSSL from this website :
+'''
+slproweb.com/products/Win32OpenSSL.html
+'''
+and after installing the exe file restart the python interpreter and relaunch it.

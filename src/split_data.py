@@ -18,7 +18,7 @@ def split_and_save_data(config_path):
     train,test=train_test_split(df,test_size=split_ratio,random_state=random_state)
     train.to_csv(train_data_path,index=False)
     test.to_csv(test_data_path,index=False)
-    print(test.head())
+    # print(test.head())
 
 if __name__=="__main__":
     args=argparse.ArgumentParser()
